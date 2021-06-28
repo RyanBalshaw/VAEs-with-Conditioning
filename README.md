@@ -6,6 +6,6 @@ Two papers are key to the unsupervised clustering idea:
 - Jiang Z, Zheng Y, Tan H, et al (2017) Variational deep embedding: An unsupervised generative approach to Clustering. IJCAI Int Jt Conf Artif Intell 0:1965–1972. https://doi.org/10.24963/ijcai.2017/273 (VaDE)
 - Rao D, Visin F, Rusu AA, et al (2019) Continual unsupervised representation learning. Adv Neural Inf Process Syst 32: (CURL)
 
-The difference between the two comes down to a mean-field approximation on <img src="https://bit.ly/3h0eSgF" align="center" border="0" alt="$p(\mathbf{z}, \mathbf{y}\vert \mathbf{x})$" width="72" height="19" />, where VaDE assumes <img src="https://bit.ly/3jmwLrE" align="center" border="0" alt=" $\mathbf{z} $  and  $ \mathbf{y}$" width="64" height="19" /> are conditionally independent given <img src="https://bit.ly/3x0X36H" align="center" border="0" alt="$ \mathbf{x}$" width="12" height="12" />.
+The difference between the two comes down to a mean-field approximation on p(z, y|x), where VaDE assumes z and y are conditionally independent given x.
 
 
