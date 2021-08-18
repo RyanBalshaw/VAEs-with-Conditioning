@@ -14,4 +14,6 @@ I have also implemented an Adversarial Auto-Encoder (AAE) and REPGAN. These scri
 
 REPGAN does not have the pairwise loss yet, but I can add it in.
 
+This repo implements each of these methods in isolation, so that they can be run independently (just check this before final commits).
+
 
