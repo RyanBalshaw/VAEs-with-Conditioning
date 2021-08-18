@@ -8,4 +8,10 @@ Two papers are key to the unsupervised clustering idea:
 
 The difference between the two comes down to a mean-field approximation on p(z, y|x), where VaDE assumes z and y are conditionally independent given x.
 
+I have also implemented an Adversarial Auto-Encoder (AAE) and REPGAN. These scripts are placed in two separate notebooks.
+- Makhzani A, Shlens J, Jaitly N, et al (2015) Adversarial autoencoders. Arxiv:151105644
+- Zhou Y, Gu K, Huang T (2019) Unsupervised Representation Adversarial Learning Network: From Reconstruction to Generation. Proc Int Jt Conf Neural Networks 2019-July: https://doi.org/10.1109/IJCNN.2019.8852395
+
+REPGAN does not have the pairwise loss yet, but I can add it in.
+
 
